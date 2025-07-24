@@ -5,7 +5,7 @@ import React from 'react'
 export default function HomeScreen() {
   return (
     <SafeAreaView>
-      <Text>HomeScreen</Text>
+      <Text className="text-red-500 text-2xl font-bold">HomeScreen koko</Text>
     </SafeAreaView>
   )
 }
