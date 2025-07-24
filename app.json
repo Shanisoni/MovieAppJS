@@ -1,5 +1,6 @@
 {
   "expo": {
+    "jsEngine": "hermes",
     "name": "MovieAppJS",
     "slug": "MovieAppJS",
     "version": "1.0.0",
@@ -20,12 +21,12 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.anonymous.MovieAppJS"
     },
     "web": {
       "favicon": "./assets/favicon.png",
       "bundler": "metro"
-      
     }
   }
 }
